@@ -1,16 +1,14 @@
 #include <iostream>
 #include <gtest/gtest.h>
-#include "bst.h"
+#include "unique_ptr.h"
+#include "shared_ptr.h"
 
 int main(int argc, char **argv)
 {
     if (false) // make false to run unit-tests
     {
-        // debug section
-        BST bst{5, 15,20};
-
-        bst.delete_node(15);
-        std::cout<<bst<<std::endl;
+        // debug section 
+        
     }
     else
     {
